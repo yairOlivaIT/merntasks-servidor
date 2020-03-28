@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json({ extended : true }));
 
 // puerto de la app , si no eiste PORT le asigna el puerto 4000
-const port = process.env.port || 4000; 
+const port = process.env.PORT || 4000; 
 
 
 // Importar rutas
